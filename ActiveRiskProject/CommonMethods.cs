@@ -48,7 +48,6 @@ namespace TestSpecFlow
                 ChromeWebDriver.Navigate().GoToUrl(url);
                 ChromeWebDriver.Manage().Window.Maximize();
                 ChromeWebDriver.SwitchTo().ActiveElement();
-                ChromeWebDriver.FindElement(By.)
             }
             catch (Exception)
             {
