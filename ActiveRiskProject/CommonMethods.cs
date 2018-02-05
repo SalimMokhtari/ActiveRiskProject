@@ -154,7 +154,7 @@ namespace TestSpecFlow
         public void VerifyEachBlogPage(Dictionary<string, string> urlsAndBlogNumbers)
         {
             Boolean foundError = false;
-            foreach (KeyValuePair<string, string> w in urlsAndBlogNumbers)  //Navigating to the page each month and verifying if the blog count extracted earlier is correct
+            foreach (KeyValuePair<string, string> w in urlsAndBlogNumbers)  //Navigating to the blog page each month and verifying if the blog count extracted earlier is correct
             {
                 GoToUrl(w.Key); //w.Key contains the url of a specific month and w.Value is its number of expected blogs 
                 Thread.Sleep(200);
