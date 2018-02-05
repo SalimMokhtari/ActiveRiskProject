@@ -41,7 +41,7 @@ namespace TestSpecFlow.CodeBindings
             Assert.AreEqual(pageTitle, "THE ACTIVE RISK BLOG");
         }
 
-//Scenario: Check that the blog post by date table exists
+//Scenario: Check that the blog post by date table exists. Verification
         [Given(@"I navigated to the main blog page _ second TC")]
         public void GivenINavigatedToTheMainBlogPage_SecondTC()
         {
