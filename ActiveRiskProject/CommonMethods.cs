@@ -139,7 +139,7 @@ namespace TestSpecFlow
             var elements = FindElements(By.XPath(blogListXpath));
             Dictionary<string, string> urlAndNumberOfBlogs = new Dictionary<string, string>();
 
-            foreach (IWebElement t in elements) //Looping through the elements found and extracting the url for each month and the expected number of blogs
+            foreach (IWebElement t in elements) //Looping through the elements found and extracting the url for each month and the expected number of blogs. etc
             {
                 string urlFull = t.GetAttribute("innerHTML"); //Getting the link data as it appears on the blog list page i.e: appended with the number of blogs between parentheses
                 string url = urlFull.Split(';')[0]; //Splitting the blog url and the number of blogs as they are separated by a ;
