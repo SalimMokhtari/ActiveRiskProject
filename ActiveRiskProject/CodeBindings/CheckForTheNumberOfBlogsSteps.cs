@@ -63,7 +63,7 @@ namespace TestSpecFlow.CodeBindings
             Assert.AreNotEqual(0, elements.Count);
         }
 
-//Scenario: Search the table and verify the result
+//Scenario: Search the table and verify the result. Verification
         [Given(@"I navigated to the main blog page  _ third TC")]
         public void GivenINavigatedToTheMainBlogPage_ThirdTC()
         {
