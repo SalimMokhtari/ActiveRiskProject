@@ -19,7 +19,7 @@ namespace TestSpecFlow.CodeBindings
     static List<IWebElement> elements;
     static Dictionary<string, string> UrlsAndBlogNumbers;
 
-        //Scenario: Blog page is loading check
+        //Scenario: Blog page is loading check.Verification
         [Given(@"I navigated to the main blog page _ first TC")]
         public void GivenINavigatedToTheMainBlogPage_FirstTC()
         {
